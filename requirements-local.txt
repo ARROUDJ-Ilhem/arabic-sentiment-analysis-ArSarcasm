@@ -1,0 +1,13 @@
+# requirements-local.txt
+# Install on your local Windows machine (no GPU needed)
+# pip install -r requirements-local.txt
+
+pyarabic==0.6.15
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
+pytest==8.2.0
+torch==2.3.0          # CPU version — install separately if needed:
+                      # pip install torch --index-url https://download.pytorch.org/whl/cpu
